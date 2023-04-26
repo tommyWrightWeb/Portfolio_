@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 
@@ -243,7 +245,7 @@ footer a{
        display: flex;
        flex-direction: column;
        justify-content: center;
-       padding-left: 20px;
+       padding:10px
 
     }
     #aboutmeImg{
@@ -255,7 +257,7 @@ footer a{
   
    #allInfo{
       flex-direction: column-reverse;
-      padding-left: 20px;
+      
    }
    #profilePic{
       width: 65%;
@@ -281,6 +283,10 @@ footer a{
       text-align: center;
       padding-left: 0;
       justify-content: center;
+     
+   }
+   #final{
+      height: 500px;
    }
    
   
@@ -294,4 +300,5 @@ footer a{
  .hiddenImg{
    display: none;
 }
+.navbar-brand{padding:3px;}
  }
